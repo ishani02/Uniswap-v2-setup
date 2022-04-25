@@ -1,5 +1,4 @@
 //SPDX-License-Identifier: UNLICENSED
-//pragma solidity >=0.5.16;
 pragma solidity >=0.8.7;
 
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2ERC20.sol";

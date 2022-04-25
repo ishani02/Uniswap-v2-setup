@@ -1,5 +1,4 @@
 //SPDX-License-Identifier: UNLICENSED
-//pragma solidity >=0.5.16;
 pragma solidity >=0.8.7;
 
 import './interfaces/IUniswapV2Pair.sol';
