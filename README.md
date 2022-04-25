@@ -1,6 +1,6 @@
 # Hardhat_boilerplate
 
-> It is just a boilerplate setup for hardhat,for writing upgradeable smart contracts.
+> It is just a boilerplate setup for hardhat, for writing upgradeable smart contracts.
 
 ## Usage
 
@@ -19,7 +19,7 @@ Give your ethersacn api key for bscscan in ETHERSCAN_API_FOR_TESTNET. You can cr
 
 ## Gas Reporter
 
-Gas reporter can be enabled or disabled by setting gasReporter to true or false in hardhat.config.ts.
+Gas reporter can be enabled or disabled by setting gasReporter to true or false in hardhat.config.js.
 
 ## Compile
 
@@ -44,24 +44,24 @@ npx hardhat clean
 ### For rinkeby
 
 ```bash
-npx hardhat run --network rinkeby  scripts/deploy.ts
+npx hardhat run --network rinkeby  scripts/deploy.js
 ```
 
 ### For bscscan
 
 ```bash
-npx hardhat run --network testnet  scripts/deploy.ts
+npx hardhat run --network testnet  scripts/deploy.js
 ```
 
 ### For local
 
 ```bash
-npx hardhat run --network localhost  scripts/deploy.ts
+npx hardhat run --network localhost scripts/deploy.js
 ```
 
 ### For others you can refer hardhat docs [here](https://forum.openzeppelin.com/t/verify-smart-contract-inheriting-from-openzeppelin-contracts/4119)
 
-## Verify script
+<!-- ## Verify script
 
 Replace the address with your deployed contract,replace constructor arguments with your contract constructor arguments,then in contracts give the path to your main solidity file and then your contract name in verify.ts file.
 
@@ -77,4 +77,4 @@ npx hardhat run --network testnet  scripts/verify.ts
 
 ```bash
 npx hardhat run --network rinkeby  scripts/verify.ts
-```
+``` -->
